@@ -37,3 +37,4 @@ C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\src\MicroService
 C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\src\MicroServices.Service\bin\Debug\net8.0\SharpCompress.dll
 C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\src\MicroServices.Service\bin\Debug\net8.0\Snappier.dll
 C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\src\MicroServices.Service\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\src\MicroServices.Service\obj\Debug\net8.0\MicroServices.Service.sourcelink.json

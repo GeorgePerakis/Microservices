@@ -1,5 +1,7 @@
+using MicroServices.Service.Entities;
 using MicroServices.Service.Repositories;
 using MicroServices.Service.Settings;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
 using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.Serializers;
 using MongoDB.Driver;
@@ -7,30 +9,16 @@ using MongoDB.Driver;
 var builder = WebApplication.CreateBuilder(args);
 
 // Bind ServiceSettings from appsettings.json or other sources
-builder.Services.Configure<ServiceSettings>(
-    builder.Configuration.GetSection("ServiceSettings"));
+builder.Services.Configure<ServiceSettings>(builder.Configuration.GetSection("ServiceSettings"));
 
 // Add services to the container.
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
-builder.Services.AddSingleton(ServiceProvider => {
-    var serviceSettings = ServiceProvider.GetRequiredService<IConfiguration>()
-    .GetSection(nameof(ServiceSettings)).Get<ServiceSettings>();
-    
-    var mongoDbSettings = ServiceProvider.GetRequiredService<IConfiguration>()
-    .GetSection(nameof(MongoDbSettings)).Get<MongoDbSettings>();
-    
-    var mongoClient = new MongoClient(mongoDbSettings.ConnectionString);
-    
-    return mongoClient.GetDatabase(serviceSettings.ServiceName);
-});
-builder.Services.AddSingleton<IItemsRepository,ItemsRepository>();
+builder.Services.AddMongo().AddMongoRepository<Item>("Items");
 
 var app = builder.Build();
 
-
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -39,9 +27,6 @@ if (app.Environment.IsDevelopment())
 
 app.MapControllers();
 
-// Register MongoDB serializers
-BsonSerializer.RegisterSerializer(new GuidSerializer(MongoDB.Bson.BsonType.String));
-BsonSerializer.RegisterSerializer(new DateTimeOffsetSerializer(MongoDB.Bson.BsonType.String));
 
 app.MapGet("/", () => "Test Endpoint")
    .WithName("Test")
