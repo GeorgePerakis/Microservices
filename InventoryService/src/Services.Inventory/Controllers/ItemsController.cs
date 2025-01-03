@@ -1,5 +1,6 @@
 using Common;
 using Microsoft.AspNetCore.Mvc;
+using Services.Inventory.Clients;
 using Services.Inventory.Dtos;
 using Services.Inventory.Entities;
 
@@ -10,10 +11,12 @@ namespace Services.Inventory.Controllers
     public class ItemsController : ControllerBase
     {
         private readonly IRepository<InventoryItem> itemsRepository;
+        private readonly CatalogClient catalogClient;
 
-        public ItemsController(IRepository<InventoryItem> itemsRepository)
+        public ItemsController(IRepository<InventoryItem> itemsRepository, CatalogClient catalogClient)
         {
             this.itemsRepository = itemsRepository;
+            this.catalogClient = catalogClient;
         }
 
         [HttpGet]
@@ -21,9 +24,15 @@ namespace Services.Inventory.Controllers
         {
             if (userId == Guid.Empty) return BadRequest();
 
-            var items = (await itemsRepository.GetAllAsync(item => item.UserId == userId)).Select(item => item.AsDto());
+            var catalogItems = await catalogClient.GetCatalogItems();
+            var inventoryItemEntities = await itemsRepository.GetAllAsync(item => item.UserId == userId);
 
-            return Ok(items);
+            var inventoryItemDtos = inventoryItemEntities.Select(inventoryItem =>{
+                var catalogItem = catalogItems.Single(catalogItem => catalogItem.Id == inventoryItem.CatalogItemId);
+                return inventoryItem.AsDto(catalogItem.Name, catalogItem.Description);
+            });
+
+            return Ok(inventoryItemDtos);
         }
 
         [HttpPost]
@@ -40,6 +49,8 @@ namespace Services.Inventory.Controllers
                 Quantity = grantItemsDto.Quantity,
                 AcquiredDate = DateTimeOffset.UtcNow
                 };
+
+                await itemsRepository.CreateAsync(InventoryItem);
             } 
             else
             {

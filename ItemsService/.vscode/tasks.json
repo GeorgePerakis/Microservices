@@ -7,15 +7,11 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Microservices.sln",
+                "${workspaceFolder}/ItemService.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
-            "problemMatcher": "$msCompile",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
+            "problemMatcher": "$msCompile"
         },
         {
             "label": "publish",
@@ -23,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Microservices.sln",
+                "${workspaceFolder}/ItemService.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -37,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/Microservices.sln"
+                "${workspaceFolder}/ItemService.sln"
             ],
             "problemMatcher": "$msCompile"
         }

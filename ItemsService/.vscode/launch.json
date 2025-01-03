@@ -10,11 +10,15 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/src/MicroServices.Service/bin/Debug/net8.0/MicroServices.Service.dll",
+            "program": "${workspaceFolder}/src/Services.Items/bin/Debug/net8.0/Services.Items.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/src/MicroServices.Service",
+            "cwd": "${workspaceFolder}/src/Services.Items",
             "stopAtEntry": false,
             // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development"
             },
