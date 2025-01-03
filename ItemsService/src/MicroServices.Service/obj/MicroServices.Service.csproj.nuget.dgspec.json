@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Productivity\\Desktop\\Work\\Δουλειά\\Microservices\\ItemsService\\src\\MicroServices.Service\\MicroServices.Service.csproj": {}
+    "C:\\Users\\Productivity\\Desktop\\Work\\Δουλειά\\Microservices\\ItemsService\\src\\MicroServices.Service\\MicroServices.Service.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Productivity\\Desktop\\Work\\Δουλειά\\Microservices\\ItemsService\\src\\MicroServices.Service\\MicroServices.Service.csproj": {
+    "C:\\Users\\Productivity\\Desktop\\Work\\Δουλειά\\Microservices\\ItemsService\\src\\MicroServices.Service\\MicroServices.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Productivity\\Desktop\\Work\\Δουλειά\\Microservices\\ItemsService\\src\\MicroServices.Service\\MicroServices.Service.csproj",
+        "projectUniqueName": "C:\\Users\\Productivity\\Desktop\\Work\\Δουλειά\\Microservices\\ItemsService\\src\\MicroServices.Service\\MicroServices.Service.csproj",
         "projectName": "MicroServices.Service",
-        "projectPath": "c:\\Users\\Productivity\\Desktop\\Work\\Δουλειά\\Microservices\\ItemsService\\src\\MicroServices.Service\\MicroServices.Service.csproj",
+        "projectPath": "C:\\Users\\Productivity\\Desktop\\Work\\Δουλειά\\Microservices\\ItemsService\\src\\MicroServices.Service\\MicroServices.Service.csproj",
         "packagesPath": "C:\\Users\\Productivity\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Productivity\\Desktop\\Work\\Δουλειά\\Microservices\\ItemsService\\src\\MicroServices.Service\\obj\\",
+        "outputPath": "C:\\Users\\Productivity\\Desktop\\Work\\Δουλειά\\Microservices\\ItemsService\\src\\MicroServices.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Productivity\\AppData\\Roaming\\NuGet\\NuGet.Config"

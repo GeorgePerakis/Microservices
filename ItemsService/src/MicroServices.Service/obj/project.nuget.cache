@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s9cmefTcmDQ=",
+  "dgSpecHash": "09zCsdUWIgs=",
   "success": true,
-  "projectFilePath": "c:\\Users\\Productivity\\Desktop\\Work\\Δουλειά\\Microservices\\ItemsService\\src\\MicroServices.Service\\MicroServices.Service.csproj",
+  "projectFilePath": "C:\\Users\\Productivity\\Desktop\\Work\\Δουλειά\\Microservices\\ItemsService\\src\\MicroServices.Service\\MicroServices.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Productivity\\.nuget\\packages\\common\\1.0.0\\common.1.0.0.nupkg.sha512",
     "C:\\Users\\Productivity\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",

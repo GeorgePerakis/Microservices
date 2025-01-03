@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "CPYVzVCROyBJSZtP0E0hepAsd5q9kXLZO5XTZI9eQGk=",
+  "Source": "Services.Inventory",
+  "BasePath": "_content/Services.Inventory",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
