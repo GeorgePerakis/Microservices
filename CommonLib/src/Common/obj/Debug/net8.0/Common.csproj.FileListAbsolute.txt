@@ -6,6 +6,7 @@ C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CommonLib\src\Co
 C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CommonLib\src\Common\obj\Debug\net8.0\Common.AssemblyInfoInputs.cache
 C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CommonLib\src\Common\obj\Debug\net8.0\Common.AssemblyInfo.cs
 C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CommonLib\src\Common\obj\Debug\net8.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CommonLib\src\Common\obj\Debug\net8.0\Common.sourcelink.json
 C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CommonLib\src\Common\obj\Debug\net8.0\Common.dll
 C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CommonLib\src\Common\obj\Debug\net8.0\refint\Common.dll
 C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CommonLib\src\Common\obj\Debug\net8.0\Common.pdb

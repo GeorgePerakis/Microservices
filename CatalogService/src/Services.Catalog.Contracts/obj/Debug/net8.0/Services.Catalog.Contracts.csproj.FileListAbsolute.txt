@@ -1,0 +1,12 @@
+C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CatalogService\src\Services.Catalog.Contracts\bin\Debug\net8.0\Services.Catalog.Contracts.deps.json
+C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CatalogService\src\Services.Catalog.Contracts\bin\Debug\net8.0\Services.Catalog.Contracts.dll
+C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CatalogService\src\Services.Catalog.Contracts\bin\Debug\net8.0\Services.Catalog.Contracts.pdb
+C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CatalogService\src\Services.Catalog.Contracts\obj\Debug\net8.0\Services.Catalog.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CatalogService\src\Services.Catalog.Contracts\obj\Debug\net8.0\Services.Catalog.Contracts.AssemblyInfoInputs.cache
+C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CatalogService\src\Services.Catalog.Contracts\obj\Debug\net8.0\Services.Catalog.Contracts.AssemblyInfo.cs
+C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CatalogService\src\Services.Catalog.Contracts\obj\Debug\net8.0\Services.Catalog.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CatalogService\src\Services.Catalog.Contracts\obj\Debug\net8.0\Services.Catalog.Contracts.sourcelink.json
+C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CatalogService\src\Services.Catalog.Contracts\obj\Debug\net8.0\Services.Catalog.Contracts.dll
+C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CatalogService\src\Services.Catalog.Contracts\obj\Debug\net8.0\refint\Services.Catalog.Contracts.dll
+C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CatalogService\src\Services.Catalog.Contracts\obj\Debug\net8.0\Services.Catalog.Contracts.pdb
+C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CatalogService\src\Services.Catalog.Contracts\obj\Debug\net8.0\ref\Services.Catalog.Contracts.dll

@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "InventoryService"
+		},
+		{
+			"path": "ItemsService"
+		}
+	],
+	"settings": {}
+}

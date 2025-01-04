@@ -10,3 +10,4 @@ C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CommonLib\src\Co
 C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CommonLib\src\Common\obj\Release\net8.0\refint\Common.dll
 C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CommonLib\src\Common\obj\Release\net8.0\Common.pdb
 C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CommonLib\src\Common\obj\Release\net8.0\ref\Common.dll
+C:\Users\Productivity\Desktop\Work\Δουλειά\Microservices\CommonLib\src\Common\obj\Release\net8.0\Common.sourcelink.json
