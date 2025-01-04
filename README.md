@@ -12,10 +12,10 @@ This project is a microservices-based architecture that leverages several modern
 - [Swashbuckle: Used to generate Swagger documentation for the APIs.]
 
 ### Asynchronous Communication
-The project uses MassTransit with RabbitMQ to enable asynchronous communication between microservices. This is achieved by configuring MassTransit to use RabbitMQ as the transport mechanism. Each microservice can publish and consume messages, allowing for decoupled and scalable communication.
+It uses MassTransit with RabbitMQ to enable asynchronous communication between microservices. This is achieved by configuring MassTransit to use RabbitMQ as the transport mechanism. Each microservice can publish and consume messages, allowing for decoupled and scalable communication.
 
 ### Circuit Breaker Pattern
-The project implements the circuit breaker pattern using Polly to handle transient faults and improve the resilience of the microservices. The circuit breaker pattern is particularly useful for preventing cascading failures and ensuring that the system can recover gracefully from temporary issues.
+Also, it implements the circuit breaker pattern using Polly to handle transient faults and improve the resilience of the microservices. The circuit breaker pattern is particularly useful for preventing cascading failures and ensuring that the system can recover gracefully from temporary issues.
 
 This configuration ensures that the CatalogClient will retry failed requests with an exponential backoff and implement a circuit breaker to stop making requests if a certain number of consecutive failures occur. This helps to prevent overwhelming the service and allows it to recover before more requests are made.
 
