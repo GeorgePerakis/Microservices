@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Common/1.1.0": {
+      "Common/1.2.0": {
         "type": "package",
         "dependencies": {
           "MassTransit.AspNetCore": "7.3.1",
@@ -728,13 +728,13 @@
     }
   },
   "libraries": {
-    "Common/1.1.0": {
-      "sha512": "zR6r1yR3igbDNpMcILKMiNfAhVpIpK+T32Kza83U44+kH54jHVSAZyHfU2t9wrY53APLsfcepTpvT5voP53ONw==",
+    "Common/1.2.0": {
+      "sha512": "akTlo40Gl91IKm3PK8zqxSW7cH8l7BIw8Xj1F9xMR2sG+7Oi7jo70cKhmJ9OPbrJMJzMHO1ANjyA/ot/xU5E9A==",
       "type": "package",
-      "path": "common/1.1.0",
+      "path": "common/1.2.0",
       "files": [
         ".nupkg.metadata",
-        "common.1.1.0.nupkg.sha512",
+        "common.1.2.0.nupkg.sha512",
         "common.nuspec",
         "lib/net8.0/Common.dll"
       ]
@@ -2079,7 +2079,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Common >= 1.1.0",
+      "Common >= 1.2.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.8",
       "Services.Catalog.Contracts >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
@@ -2134,7 +2134,7 @@
         "dependencies": {
           "Common": {
             "target": "Package",
-            "version": "[1.1.0, )"
+            "version": "[1.2.0, )"
           },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
