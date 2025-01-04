@@ -3,7 +3,7 @@
 ## About
 This project is a microservices-based architecture that leverages several modern technologies to ensure scalability, maintainability, and resilience. Below is an overview of the key technologies used and how they are integrated into the project:
 
-# Technologies Used
+### Technologies Used
 - [ASP.NET Core: The primary framework for building the web APIs.]
 - [MassTransit: A distributed application framework for .NET, used for asynchronous communication between microservices.]
 - [RabbitMQ: A message broker that facilitates the asynchronous communication between microservices.]
@@ -11,15 +11,15 @@ This project is a microservices-based architecture that leverages several modern
 - [Polly: A .NET resilience and transient-fault-handling library used to implement the circuit breaker pattern.]
 - [Swashbuckle: Used to generate Swagger documentation for the APIs.]
 
-# Asynchronous Communication
+### Asynchronous Communication
 The project uses MassTransit with RabbitMQ to enable asynchronous communication between microservices. This is achieved by configuring MassTransit to use RabbitMQ as the transport mechanism. Each microservice can publish and consume messages, allowing for decoupled and scalable communication.
 
-# Circuit Breaker Pattern
+### Circuit Breaker Pattern
 The project implements the circuit breaker pattern using Polly to handle transient faults and improve the resilience of the microservices. The circuit breaker pattern is particularly useful for preventing cascading failures and ensuring that the system can recover gracefully from temporary issues.
 
 This configuration ensures that the CatalogClient will retry failed requests with an exponential backoff and implement a circuit breaker to stop making requests if a certain number of consecutive failures occur. This helps to prevent overwhelming the service and allows it to recover before more requests are made.
 
-## Prerequisites
+### Prerequisites
 - [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
 - [Docker](https://www.docker.com/get-started)
 - [MongoDB](https://www.mongodb.com/try/download/community)
